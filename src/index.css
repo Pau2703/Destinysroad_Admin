@@ -1,0 +1,114 @@
+body {
+    color: #423160;
+    
+}
+
+.formulario {
+    /*border-radius: 10px;*/
+    background-color:white;
+    /* opacity:.92; */
+    scale: .92;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 50px;
+    height: 100%;
+    border-radius: 2rem;
+  
+
+    /*text-align: center;*/
+}
+
+
+.seleccion-destino {
+    /*color: gray;*/
+}
+
+.campo_number {
+    -webkit-appearance: none;
+    -moz-appearance: textfield;
+}
+.total_pagar {
+    color: #242749;
+    margin-top: 3.4rem;
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+.total_pagar span {
+    color: #473f87;
+    font-weight: 900;
+}
+
+.btn {
+    margin: 0 auto;
+    /*margin-top: 2rem;*/
+    display: block;
+    border-radius: 10px;
+    border: 1px solid #473f87;
+    background-color: #473f87;
+    color: #FFFFFF;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 12px 45px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: transform 80ms ease-in;
+    cursor: pointer;
+    /*margin-bottom: 7rem;*/
+}
+
+.btn:hover {
+    background-color: #382f86;
+    transition: .2s;
+}
+
+.tipo {
+    display: inline;
+    margin-right: 1.5rem;
+
+}
+
+.spinner {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.lds-dual-ring {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+}
+
+.lds-dual-ring:after {
+    content: " ";
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 8px;
+    border-radius: 50%;
+    border: 6px solid #fff;
+    border-color: #473f87 transparent #473f87 transparent;
+    animation: lds-dual-ring 1.2s linear infinite;
+}
+
+@keyframes lds-dual-ring {
+    0% {
+        transform: rotate(0deg);
+    }
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.footer {
+
+    height: 6rem;
+}
+
+.swal2-container.swal2-center {
+    scale: 1.5 !important;
+}
+
